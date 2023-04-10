@@ -15,5 +15,6 @@ int main(){
     else{
             printf("no where to go");
         }
+        
     return 0;
 }
