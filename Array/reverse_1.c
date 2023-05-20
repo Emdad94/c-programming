@@ -10,11 +10,11 @@ int main(){
     int i=0,j=n-1;
     while (i<j)
     {
-        int tmp=ar[i];
-        ar[i]=ar[j];
-        ar[j]=tmp;
-        i++;
-        j--;
+       int temp = ar[i];
+       ar[i]= ar[j];
+       ar[j]= temp;
+       i++;
+       j--;
     }
     for (int i=0;i<n;i++)
     {
