@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "random": "c"
-    }
+    },
+    "cph.general.onceMaintainerMessage": false
 }

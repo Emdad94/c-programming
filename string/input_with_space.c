@@ -3,8 +3,8 @@
 int main(){
     char a[100];
     //gets(a);
-    fgets(a,14,stdin);
-    a[15] = '\0';
+    fgets(a,25,stdin);
+    //a[25] = '\0';
     printf("%s",a);
     return 0;
 }

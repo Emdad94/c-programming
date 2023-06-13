@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    char a[5];
-    for (int i=0;i<5;i++)
+    char a[11];
+    for (int i=0;i<11;i++)
     {
         scanf("%c",&a[i]);
     }
-    for(int i=0;i<5;i++)
+    for(int i=0;i<11;i++)
     {
         printf("%c\n",a[i]);
     }
