@@ -5,7 +5,7 @@ using namespace std;
 class box{
     int l,w,h;
     public:
-    int getvolume(){
+    int getvolume(){ 
         return l*w*h;
     }
     void setter (int len, int wid, int hei){
